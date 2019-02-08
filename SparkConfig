@@ -1,0 +1,14 @@
+spark.hadoop.javax.jdo.option.ConnectionDriverName com.microsoft.sqlserver.jdbc.SQLServerDriver
+spark.hadoop.javax.jdo.option.ConnectionURL jdbc:sqlserver://jacksqldbsrv.database.windows.net:1433;database=jacksqldb;user=jack@jacksqldbsrv;password=12345!;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+dfs.adls.oauth2.credential 27oZNgjlrgQ=
+dfs.adls.oauth2.access.token.provider.type ClientCredential
+spark.hadoop.javax.jdo.option.ConnectionUserName jack
+spark.hadoop.javax.jdo.option.ConnectionPassword 12345!
+dfs.adls.oauth2.refresh.url https://login.microsoftonline.com/2d7cd011db47/oauth2/token
+hive.metastore.schema.verification.record.version true
+dfs.adls.oauth2.client.id a3f15d6c5f71
+spark.sql.hive.metastore.jars maven
+hive.metastore.schema.verification false
+spark.sql.hive.metastore.version 2.1.1
+dfs.adls.home.hostname jackadlsg1.azuredatalakestore.net/
+dfs.adls.home.mountpoint /clusters/jackhive
